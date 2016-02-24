@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.GameEngine", "HelloWorld.GameEngine.csproj", "{394978F5-D634-42B1-9474-2477FEADCF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zero.Android", "D:\smart-phone\Zero.Games.Engine\Zero.Android\Zero.Android.csproj", "{BA6B68CB-5211-4751-9662-BCD657F4950B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug - Android|Any CPU = Debug - Android|Any CPU
+		Release_Android|Any CPU = Release_Android|Any CPU
+		IOS|Any CPU = IOS|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.Debug - Android|Any CPU.ActiveCfg = Debug|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.Debug - Android|Any CPU.Build.0 = Debug|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.IOS|Any CPU.ActiveCfg = Debug|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.IOS|Any CPU.Build.0 = Debug|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.Release_Android|Any CPU.ActiveCfg = Debug|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.Release_Android|Any CPU.Build.0 = Debug|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394978F5-D634-42B1-9474-2477FEADCF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.Debug - Android|Any CPU.ActiveCfg = Debug - Android|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.Debug - Android|Any CPU.Build.0 = Debug - Android|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.IOS|Any CPU.ActiveCfg = IOS|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.IOS|Any CPU.Build.0 = IOS|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.Release_Android|Any CPU.ActiveCfg = Release_Android|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.Release_Android|Any CPU.Build.0 = Release_Android|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6B68CB-5211-4751-9662-BCD657F4950B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
