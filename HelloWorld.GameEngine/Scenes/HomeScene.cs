@@ -46,6 +46,7 @@ namespace HelloWorld.GameEngine
 
         public override void Load()
         {
+            Console.WriteLine("Load home");
             base.Load();
             _bgButton = _textureManager.Load("inputbox");
             _bg = _textureManager.Load("bg");

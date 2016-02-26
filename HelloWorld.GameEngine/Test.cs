@@ -22,7 +22,7 @@ namespace HelloWorld.GameEngine
                 b => b.Bind<IAvatarLoader, AvatarLoader>().InSingletonScope()));
 
             var loader = kernel.Get<IAvatarLoader>();
-            var mask = "Images/avatar_holder.jpg";
+            var mask = "Images/avatar_holder.png";
 
             loader.Init(1024, 1024, 100, 100, 5, mask);
             var cs = kernel.Get<CompactSerializer>();
@@ -31,14 +31,16 @@ namespace HelloWorld.GameEngine
             new BaseMessages(cs);
 
             c.Flow("start", "splash");
-            c.Flow("splash-complted", "home");
+            c.Flow("splash-completed", "home");
             c.Flow("show-menu", "login");
             c.Flow("show-login", "login");
+            c.Flow("about", "about-scene");
 
             c.Register<SpashScene>("splash", true);
             c.Register<HomeScene>("home", true);
             c.Register<LeftMenu>("left", true);
             c.Register<LoginScene>("login", true);
+            c.Register<AboutScene>("about-scene", true);
         }
     }
 

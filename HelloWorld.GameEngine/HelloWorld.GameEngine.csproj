@@ -52,6 +52,7 @@
     <Compile Include="Mesages.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scenes\About.cs" />
     <Compile Include="Scenes\BaseScene.cs" />
     <Compile Include="Scenes\HomeScene.cs" />
     <Compile Include="Scenes\LeftMenu.cs" />
@@ -226,7 +227,7 @@
     <Folder Include="Assets\Images\shared\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Zero.Android\Zero.Android.csproj">
+    <ProjectReference Include="D:\smart-phone\Zero.Games.Engine\Zero.Android\Zero.Android.csproj">
       <Project>{ba6b68cb-5211-4751-9662-bcd657f4950b}</Project>
       <Name>Zero.Android</Name>
     </ProjectReference>
