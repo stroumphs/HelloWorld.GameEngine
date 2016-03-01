@@ -52,11 +52,12 @@
     <Compile Include="Mesages.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Scenes\About.cs" />
     <Compile Include="Scenes\BaseScene.cs" />
     <Compile Include="Scenes\HomeScene.cs" />
     <Compile Include="Scenes\LeftMenu.cs" />
+    <Compile Include="Scenes\Lobby.cs" />
     <Compile Include="Scenes\LoginScene.cs" />
+    <Compile Include="Scenes\Settings.cs" />
     <Compile Include="Scenes\SpashScene.cs" />
     <Compile Include="Test.cs" />
   </ItemGroup>
@@ -131,9 +132,6 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\Images\LeftMenu.mm.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidAsset Include="Assets\Images\Lobby.mm.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\Images\Loc.mm.png" />
@@ -231,6 +229,15 @@
       <Project>{ba6b68cb-5211-4751-9662-bcd657f4950b}</Project>
       <Name>Zero.Android</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Images\share.background.mm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Images\settings.mm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\Images\lobby.mm.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

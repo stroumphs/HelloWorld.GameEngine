@@ -30,17 +30,19 @@ namespace HelloWorld.GameEngine
             new CoreMessages(cs);
             new BaseMessages(cs);
 
-            c.Flow("start", "splash");
-            c.Flow("splash-completed", "home");
-            c.Flow("show-menu", "login");
-            c.Flow("show-login", "login");
-            c.Flow("about", "about-scene");
+            //c.Flow("start", "settings");
+            c.Flow("start", "lobby");
+            //c.Flow("splash-completed", "home");
+            //c.Flow("show-menu", "login");
+            //c.Flow("show-login", "login");
 
-            c.Register<SpashScene>("splash", true);
-            c.Register<HomeScene>("home", true);
-            c.Register<LeftMenu>("left", true);
-            c.Register<LoginScene>("login", true);
-            c.Register<AboutScene>("about-scene", true);
+            //c.Register<SpashScene>("splash", true);
+            //c.Register<HomeScene>("home", true);
+            //c.Register<LeftMenu>("left", true);
+            //c.Register<LoginScene>("login", true);
+
+            //c.Register<SettingsScene>("settings", true);
+            c.Register<LobbyScene>("lobby", true);
         }
     }
 
