@@ -61,7 +61,7 @@ namespace HelloWorld.GameEngine
         }
 
         public void setPos(ImageButton2 btn, Vector2 pos) {
-            btn.Pos = Layout.ValidPos(_context.ActualResolution, pos);
+            btn.Pos = Layout.TransformPos(_context.ActualResolution, pos);
         }
 
         public override void LoadCompleted()
